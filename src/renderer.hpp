@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #pragma once
 // EGL/GLES3: на выход — снимок, его размытая копия и слои аннотаций; один проход compose.
 #include "common.hpp"

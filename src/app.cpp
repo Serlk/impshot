@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #include "app.hpp"
 
 #include "cursor-shape-v1.h"

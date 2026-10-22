@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #include "pin.hpp"
 
 #include "alpha-modifier-v1.h"

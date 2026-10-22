@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #pragma once
 // Закреплённый снимок: обычное xdg-окно поверх остальных (правило Hyprland: float + pin).
 // Картинка — shm-буфер в пикселях снимка, масштаб делает композитор через viewport.

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 // impshot — скриншот области для Wayland (Hyprland): мгновенный оверлей, аннотации, PNG в буфер/файл.
 #include "app.hpp"
 

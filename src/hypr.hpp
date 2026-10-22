@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #pragma once
 // Прямоугольники видимых окон через сокет Hyprland — для выделения окна одним кликом.
 #include <string>

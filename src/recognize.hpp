@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #pragma once
 // Распознавание выделения: текст через tesseract, QR и прочие штрихкоды через zxing-cpp.
 #include <cstdint>

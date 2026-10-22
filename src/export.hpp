@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #pragma once
 // PNG без альфы, быстрое сжатие; отдача в wl-copy и запись в файл.
 #include <cstdint>

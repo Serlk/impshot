@@ -101,3 +101,7 @@ The NPU is not used: only VLMs via FastFlowLM are available there, which are slo
 ## Checking the look
 
 `impshot --standalone --demo 1.5` shows a test scene; `IMPSHOT_DEMO_FINISH=save|copy|ocr|qr|pin` runs a finish path without the mouse, `IMPSHOT_DEMO_UI=menu|text` shows the style menu / text mode.
+
+## License
+
+GPL-3.0-or-later — see [LICENSE](LICENSE).
