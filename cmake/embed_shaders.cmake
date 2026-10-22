@@ -1,0 +1,12 @@
+# Собирает shaders/*.glsl в один заголовок: inline constexpr const char* shader_<имя> = R"(...)";
+file(GLOB IN ${DIR}/*.glsl)
+list(SORT IN)
+set(body "#pragma once\n// generated from shaders/*.glsl — do not edit\nnamespace shaders {\n")
+foreach(f ${IN})
+    get_filename_component(name ${f} NAME_WE)
+    string(REPLACE "-" "_" name ${name})
+    file(READ ${f} src)
+    string(APPEND body "inline constexpr const char* ${name} = R\"glsl(${src})glsl\";\n")
+endforeach()
+string(APPEND body "}\n")
+file(WRITE ${OUT} "${body}")
